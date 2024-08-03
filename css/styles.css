@@ -1,80 +1,76 @@
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 1000
-
-.roboto-flex-<uniquifier> {
-  font-family: "Roboto Flex", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "wdth" 100,
-    "GRAD" 0,
-    "XOPQ" 96,
-    "XTRA" 468,
-    "YOPQ" 79,
-    "YTAS" 750,
-    "YTDE" -203,
-    "YTFI" 738,
-    "YTLC" 514,
-    "YTUC" 712;
-}
-
 body{
-    font-family: "Roboto Flex", sans-serif;
-    background-color: black;
+    font-family: "Roboto", sans-serif;
+    background-color: black;    
     display: flex;
     flex-direction: column;
-}
-
-.header{
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-.separador{
-            padding: 40px;
-}
-.content-center{
-    
-    padding: 5px 0 0 0;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
 }
-.titulo{
-            padding: 5px;
-            width: 590px;
+
+.post {
+    width: 600px;
+}
+
+.post-header{
+    display: flex;
+    background-color: #eaedf0;
+}
+
+.html-icon{
+             width: 5%;
+             margin-right: auto;
+             padding: 19px;
+}
+
+.texto-header{
+                flex-direction: column;
+                margin-top: 19px;                
+}
+
+.img-menu-sandwich {
+                    display: flex;
+                    justify-content: flex-end;
+}
+
+.img-menu-sandwich img {
+                        width: 16%;
+                        }
+
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.post-img{
             display: flex;
-            justify-content: space-between;
-            background-color: white;
 }
-img  {
-    width: 600px;
+
+.post-img img{
+    width: 600px;   
+}
+
+/* 3er div de iconos */ 
+
+.post-icon{ 
+    background-color: #eaedf0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
 }
 
-.footer{
-    font-size: small;
-    margin: auto;
-    width: 600px;
-    background-color: white;
-}
-.footer p{
-    padding: 10px;
+.icono-separado{
+    display: flex;
+    justify-content: flex-end;
 }
 
 
+.post-icon img{
+        width: 5%;
+        padding: 10px;
+}
 
-.content-footer h1{
-    background-color: white;
-    text-align: center;
+p {
+    padding: 0 0 0 10px;
+    background-color: #eaedf0; 
+}
+
+.segundo-parrafo{
     padding: 10px;
 }
